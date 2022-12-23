@@ -19,3 +19,28 @@ body{
     padding: 5px 0;
 
 }
+
+.header-title{
+    color: #fff;
+    padding: 10px 0;
+    text-transform: uppercase;
+
+}
+
+.header-decription{
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Respuesta
+================== */
+
+.answer{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.answer p{
+    font-size: 25px;
+    font-weight: bold;
+}
