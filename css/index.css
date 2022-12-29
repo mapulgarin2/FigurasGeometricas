@@ -64,5 +64,53 @@ body{
  border: 3px solid blue;
  border-radius: 10px;
  margin: 20px;
- float: left;
+ float: right;
+}
+
+/* Encabezado y menu de las cajas
+========================================== */
+.box-header{
+    background-color: blue;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.box-main{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.box-main__text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-main__input{
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    color: blue;
+    border: solid blue;
+    border-radius: 5px;
+}
+
+.box-main__btn{
+    background-color: blue;
+    color: #fff;
+    width: 120px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-style: none;
+    border-radius: 10px;
+
+    
+
 }
