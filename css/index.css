@@ -64,7 +64,7 @@ body{
  border: 3px solid blue;
  border-radius: 10px;
  margin: 20px;
- float: right;
+ float: left;
 }
 
 /* Encabezado y menu de las cajas
@@ -109,8 +109,15 @@ body{
     text-align: center;
     margin: 5px;
     border-style: none;
-    border-radius: 10px;
+    border-radius: 10px;    
 
-    
+}
 
+.box-main__btn:hover{
+    background-color: rgb(47, 47, 213);
+    cursor: pointer;
+}
+
+.box-main__btn:active{
+    background-color: black;
 }
